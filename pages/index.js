@@ -14,7 +14,8 @@ export default function Home() {
             Welcome to homepage
           </Heading>
           <Text mt={8} textAlign="center">
-            {`User ID: ${user ? user.uid : "No user signed in"}`}
+            <strong>User ID:</strong>
+            {` ${user ? user.uid : "No user signed in"}`}
           </Text>
           <Box
             display={{ md: "flex" }}
