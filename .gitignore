@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+# firebase keys
+secrets.json
+
 # testing
 /coverage
 
